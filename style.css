@@ -1,0 +1,47 @@
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+
+.numbers {
+    display: flex;
+    border: 2px solid;
+    border-color: black;
+    box-sizing: border-box; 
+    
+}
+
+.operations {
+    flex-grow: 2;
+    border: 5px solid;
+    border-color: black;
+    box-sizing: border-box;
+    
+}
+
+.plus,
+.minus,
+.for,
+.divide {
+    border: 2px solid;
+    border-color: black;
+    box-sizing: border-box; 
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.zero,
+.dot,
+.delete {
+    border: 2px solid;
+    border-color: black;
+    box-sizing: border-box;  
+}
