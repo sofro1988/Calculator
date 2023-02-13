@@ -1,7 +1,16 @@
 #container {
     display: flex;
     justify-content: center;
-    gap: 0px;
+    gap: 5px;
+    flex-direction: column; 
+}
+
+.display{
+    border: 5px solid;
+    border-color: black;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-right: 700px;
 }
 
 .numbers {
@@ -9,15 +18,31 @@
     border: 2px solid;
     border-color: black;
     box-sizing: border-box; 
-    
+    margin-left: 700px;
+    margin-right: 700px;  
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;   
 }
 
-.operations {
-    flex-grow: 2;
+.top,
+.topMiddle,
+.bottomMiddle,
+.bottom {
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.operation {
     border: 5px solid;
     border-color: black;
     box-sizing: border-box;
-    
+    display: flex;
+    flex-direction: row;
+    margin-left: 700px;
+    margin-right: 700px;      
 }
 
 .plus,
@@ -27,6 +52,8 @@
     border: 2px solid;
     border-color: black;
     box-sizing: border-box; 
+    flex: 1 1 auto; 
+    text-align: center;
 }
 
 .one,
@@ -44,4 +71,20 @@
     border: 2px solid;
     border-color: black;
     box-sizing: border-box;  
+    flex: 1 1 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+.result{
+    border: 5px solid;
+    border-color: black;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-right: 700px;  
+    height: 50px;
+    text-align: center;
+    justify-content: center;
 }
