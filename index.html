@@ -10,38 +10,37 @@
 </head>
 <body>
     <div id="container">
-        <div class="display">
-            <p>display</p>
+        <div id="display"><p id="displayTwo">0</p>
         </div>
         <div class="operation">
-            <div class="plus">+ </div>
-            <div class="minus">- </div>
-            <div class="for"> x</div>
-            <div class="divide">/ </div>
+            <button class="plus" onclick="add()">+ </button>
+            <button class="minus" onclick="less()">- </button>
+            <button class="for" onclick="forr()"> x</button>
+            <button class="divide" onclick="dividing()">/ </button>
         </div>
         <div class="numbers">
             <div class="top">
-                <div class="seven">7</div>
-                <div class="eight">8</div>
-                <div class="nine">9</div>
+                <button class="seven" onclick="seven()">7</button>
+                <button class="eight" onclick="eight()">8</button>
+                <button class="nine" onclick="nine()">9</button>
             </div>
             <div class="topMiddle">
-                <div class="six">6</div>
-                <div class="five">5</div>
-                <div class="four">4</div>
+                <button class="six" onclick="six()">6</button>
+                <button class="five" onclick="five()">5</button>
+                <button class="four" onclick="four()">4</button>
             </div>
             <div class="bottomMiddle">
-                <div class="three">3</div>
-                <div class="two">2</div>
-                <div class="one">1</div>
+                <button class="three" onclick="three()">3</button>
+                <button class="two" onclick="two()">2</button>
+                <button class="one" onclick="one()">1</button>
             </div>
             <div class="bottom">
-                <div class="zero">0</div>
-                <div class="dot">.</div>
-                <div class="delete">C</div>
+                <button class="zero" onclick="zero()">0</button>
+                <button class="dot" onclick="dot()">.</button>
+                <button class="delete" onclick="deleting()">C</button>
             </div>
         </div>
-        <div class="result">
+        <button class="result" onclick="result()">
             =
         </div>
 
